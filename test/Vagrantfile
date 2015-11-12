@@ -3,7 +3,7 @@
 
 Vagrant.configure(2) do |config|
   config.vm.box = 'centos6'
-  config.vm.box_check_update = true
+  config.vm.box_url = 'http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-6.7_chef-provisionerless.box'
 
   config.vm.hostname = 'mediawiki-test'
 
