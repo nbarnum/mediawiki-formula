@@ -28,7 +28,6 @@ apache:
     - require:
       - pkg: apache
       - service: mysql
-      - service: iptables
 
 mysql:
   pkg.installed:
