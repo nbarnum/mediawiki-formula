@@ -11,6 +11,8 @@ Install the mediawiki RPM and RHEL 6 or CentOS 6.
 Testing
 -------
 
+Testing can be done with vagrant (https://www.vagrantup.com)::
+
     ~$ cd test/
     ~$ vagrant up
 
